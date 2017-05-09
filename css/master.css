@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800');
+* {
+    margin: 0;
+    padding: 0;
+    outline: inherit;
+}
+body,
+html {
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    background: #E9E9E9
+}
+a {
+    text-decoration: none;
+    color: #fff
+}
+ul {
+    list-style-type: none;
+}
+.size {
+    width: 1140px;
+    max-width: 90%;
+}
+.margin {
+    margin: 0 auto;
+}
+.full-height {
+  height: 100%;
+}
+.full-width {
+  width: 100%;
+}
+.menu {
+  min-height: 70px;
+  color: #fff;
+}
+.mg10 {
+  margin: 10px
+}
+.mg5 {
+  margin: 5px
+}
+.pd10 {
+  padding: 10px
+}
+.pd5 {
+  padding: 5px
+}
+.img-perfil {
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  border-radius: 50%;
+  margin-right: 5px;
+  background: url(../img/eu.jpg);
+  background-size: cover;
+  background-position: center;
+  border: 2px solid #fff;
+  cursor: pointer;
+}
+.menu-links a {
+  color: #fff;
+  padding: 5px 20px;
+  border-radius: 20px;
+  margin: 1px;
+  font-size: 14px;
+  transition: .3s
+}
+.menu-links a:hover,
+.menu-links-select {
+  background: rgba(0, 0, 0, 0.2);
+}
+.icons {
+  cursor: pointer;
+  opacity: .8;
+  transition: .3s
+}
+.icons:hover {
+  opacity: 1
+}
+
+.aparece-mobile {
+  display: none
+}
+.aparece-tablet {
+  display: none
+}
+.conteudo {
+  margin-top: 20px;
+}
+.estilo {
+  background: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+}
+.cards {
+  padding-bottom: 50px
+}
+.card {
+  background: #ccc;
+  height: 300px;
+  margin: 5px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.title-card {
+  font-size: 12px
+}
+.text-card {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 12px;
+  max-width: 90%;
+}
+.img-card {
+  position: relative;
+}
+.text-intro {
+  padding-bottom: 10px;
+}
+.text-intro h2 {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 18px;
+}
+.text-intro h2 small {
+  color: rgba(0, 0, 0, 0.5);
+}
+.img-atualiza {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+.atualiza {
+  margin: 5px;
+}
+.h1 {
+  height: 8px;
+  width: 100px;
+  border: none;
+  margin: 0 auto;
+}
+.confirm {
+  position: absolute;
+  top: 0;
+  left: 0
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 480px) {
+  .some-mobile {
+    display: none
+  }
+  .aparece-mobile {
+    display: block
+  }
+}
+@media only screen and (max-width: 720px) {
+  .some-tablet {
+    display: none
+  }
+  .aparece-tablet {
+    display: block
+  }
+}
